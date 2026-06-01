@@ -1,7 +1,7 @@
 import './index.css'
 import { FaLocationDot } from "react-icons/fa6";
 import { FaMouse, FaKeyboard } from "react-icons/fa";
-import { MdOutlineUsb, MdHeadphones } from "react-icons/md";
+import { MdOutlineUsb, MdHeadphones, MdMonitor } from "react-icons/md";
 import OrderItem from './OrderItem';
 
 export default function App() {
@@ -11,14 +11,14 @@ export default function App() {
     icon: <FaKeyboard />,
     name: "Mechanical Keyboard", 
     qty: 1, 
-    price: 28000 
+    price: 50000 
   },
   { 
     id: 2, 
     icon: <MdHeadphones />,
     name: "Headphones", 
     qty: 1, 
-    price: 45000 
+    price: 30000 
   },
   { 
     id: 3, 
@@ -33,6 +33,13 @@ export default function App() {
     name: "Wireless Mouse", 
     qty: 1, 
     price: 12500 
+  },
+  { 
+    id: 5, 
+    icon: <MdMonitor />,
+    name: "Flat Screen Monitor", 
+    qty: 1, 
+    price: 20000 
   },
   ];
 
